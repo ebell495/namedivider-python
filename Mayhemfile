@@ -1,6 +1,6 @@
 project: namedivider-python
-target: fuzz
+target: fuzz_name_divider
 
 cmds:
-    - cmd: fuzz/fuzz.py
+    - cmd: fuzz/fuzz_name_divider.py
       libfuzzer: true
